@@ -1,0 +1,15 @@
+[package]
+
+name = "core_video"
+version = "0.1.0"
+authors = ["The Servo Project Developers"]
+
+[[lib]]
+
+name = "core_video"
+path = "lib.rs"
+
+[dependencies.core_foundation]
+
+git = "https://github.com/servo/rust-core-foundation"
+
